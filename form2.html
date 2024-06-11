@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  input[type="text"]{
+    border: 2px solid red;
+    border-radius: 7px;
+    height: 30px;
+    width: 20%;
+    color: red;
+    font-size: 20PX;
+  }
+</style>
+<body>
+  <form method="post" autocomplete="on">
+    <fieldset>
+      <legend>Student Information</legend>
+    <!--<label for="fname">First Name:</label>
+    <input type="text" id="fname"><br><br>
+    <label for="cars">Choose the Fav. Car: </label>
+    <select name="car" id="cars">
+      <option value="volvo">volvo</option>
+      <option value="thar">thar</option>
+      <option value="swift">swift</option>
+    </select><br><br>
+    <label for="add">Address.</label>
+    <textarea name="" id="add"></textarea><br><br>
+    <input type="submit" value="Enter">-->
+
+    <!--HTML INPUT TYPES IN FORM-->
+    User-Email:<input type="text" id="user" name="user"><br><br>
+    <!--type=password-->
+    Password:<input type="password" id="pwd" name="pwd"><br><br>
+    <!--type=submit-->
+    <input type="submit" value="submit">
+    <!--type=reset-->
+    <input type="reset" value="reset"><br><br>
+    <!--type=radio-->
+    Gender:<input type="radio" name="gender" id="male" value="male">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="female" value="female">
+    <label for="female">feMale</label>
+    <input type="radio" name="gender" id="other" value="other">
+    <label for="other">other</label><br><br>
+    <!--type=checkbox-->
+    Select Courses:
+    <input type="checkbox" id="course1" name="courses" value="rs-cit">
+    <label for="course1">Rs-Cit</label>
+    <input type="checkbox" id="course2" name="courses" value="ccc">
+    <label for="course2">Ccc</label>
+    <input type="checkbox" id="course3" name="courses" value="Coding">
+    <label for="course3">Coding</label><br><br>
+<!--type=button-->
+    <input type="button" onclick="alert('Hello World!')" value="Click Me!"><br><br>
+<!--type=color-->
+    <label for="color">Fav.Colors:</label>
+    <input type="color" id="color" name="favcolor" ><br><br>
+<!--type=email-->
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" ><br><br>
+<!--type=tel-->
+    <label for="tele">Mob.Phone:</label>
+    <input type="number" id="teke" name="tele" maxlength="13" minlength="10"><br><br>
+
+<!--Attributes Readonly-->
+    Read-Only<input type="text" value="Nikhil Bagoriya" readonly><br><br>
+
+    <!--Attributes Disabled-->
+    Disabled<input type="text" value="Nikhil Bagoriya" disabled><br><br>
+
+    <!--Attributes Multiple-->
+    Multiple<input type="file" id="files" name="files" multiple><br><br>
+
+    <!--Attributes Placeholder-->
+    Placeholder<input type="text"  name="text" placeholder="Digital"><br><br>
+
+    <!--Attributes Required-->
+    Required<input type="text"  name="text" required><br><br>
+
+
+  
+  
+
+  </fieldset>
+  </form>
+</body>
+</html>
